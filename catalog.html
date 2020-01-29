@@ -16,7 +16,6 @@
         <div class="search">
           <form action="#" method="get">
             <input type="search" name="search" placeholder="Поиск:">
-            <label for="search"></label>
           </form>
         </div>
         <div>
@@ -68,6 +67,25 @@
       <div>
         <aside class="filters">
           <form class="" action="#" method="get">
+            <div class="filter">
+              <span>Фильтр:</span>
+            </div>
+            <fieldset>
+              <legend>Цена:</legend>
+              <div class="range-filter">
+                <div class="range">
+                  <div class="scale">
+                    <div class="crossbar"></div>
+                  </div>
+                  <div class="toggle"></div>
+                  <div class="toggle"></div>
+                </div>
+                <div class="price">
+                  <label class="min-price"><input type="text" name="min-price" value="0"></label>
+                  <label class="max-price"><input type="text" name="max-price" value="30000"></label>
+                </div>
+              </div>
+            </fieldset>
             <fieldset>
               <legend>Производители:</legend>
               <ul>
@@ -111,6 +129,16 @@
         </aside>
 
         <section class="catalog">
+          <div class="sorting">
+            <span>Сортировка</span>
+            <ul class="sorting-list">
+              <li><a href="#">По цене</a></li>
+              <li><a href="#">По типу</a></li>
+              <li><a href="#">По функционалу</a></li>
+              <li><a href="#"></a>вверх</li>
+              <li><a href="#"></a>вниз</li>
+            </ul>
+          </div>
           <ul class="catalog-list">
             <li class="catalog-item">
               <div class="actions">
