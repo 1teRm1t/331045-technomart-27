@@ -69,7 +69,6 @@
         </ul>
         <div class="slider-wrap">
           <div class="slider-promo">
-            <!-- Набросок слайдера -->
             <div class="slider-tools">
               <input type="radio" id="perforators" name="toggle" checked>
               <input type="radio" id="drills" name="toggle">
@@ -114,7 +113,7 @@
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="" alt="">
+              <img src="img/bosch9000.jpg" width="218" height="170" alt="bosch9000">
               <h3>Перфоратор BOSCH BFG 9000</h3>
               <del>32500 P.</del>
               <p class="new-price">25500 Р.</p>
@@ -124,7 +123,7 @@
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="" alt="">
+              <img src="img/bosch3000.jpg" width="218" height="170" alt="bosch3000">
               <h3>Перфоратор BOSCH BFG 3000</h3>
               <del>22500 P.</del>
               <p class="new-price">15500 Р.</p>
@@ -134,7 +133,7 @@
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="" alt="">
+              <img src="img/bosch6000.jpg" width="218" height="170" alt="bosch6000">
               <h3>Перфоратор BOSCH BFG 6000</h3>
               <del>30500 P.</del>
               <p class="new-price">25500 Р.</p>
@@ -144,7 +143,7 @@
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="" alt="">
+              <img src="img/bosch2000.jpg" width="218" height="170" alt="bosch2000">
               <h3>Перфоратор BOSCH BFG 2000</h3>
               <p class="new-price">12500 Р.</p>
             </li>
@@ -158,14 +157,14 @@
           <a href="#">Все производители</a>
         </div>
         <div class="manufacturers-list">
-          <a href="#"><img src="" alt=""></a>
-          <a href="#"><img src="" alt=""></a>
-          <a href="#"><img src="" alt=""></a>
-          <a href="#"><img src="" alt=""></a>
-          <a href="#"><img src="" alt=""></a>
-          <a href="#"><img src="" alt=""></a>
-          <a href="#"><img src="" alt=""></a>
-          <a href="#"><img src="" alt=""></a>
+          <a href="#"><img src="img/bosch.jpg" width="126" height="37" alt="bosch"></a>
+          <a href="#"><img src="img/makita.jpg" width="123" height="40" alt="makita"></a>
+          <a href="#"><img src="img/de-walt.jpg" width="146" height="44" alt="de-walt"></a>
+          <a href="#"><img src="img/interscol.jpg" width="200" height="88" alt="interscol"></a>
+          <a href="#"><img src="img/hitachi.jpg" width="169" height="31" alt="hitachi"></a>
+          <a href="#"><img src="img/lg.jpg" width="121" height="73" alt="lg"></a>
+          <a href="#"><img src="img/aeg.jpg" width="151" height="96" alt="aeg"></a>
+          <a href="#"><img src="img/metabo.jpg" width="204" height="69" alt="metabo"></a>
         </div>
       </section>
 
@@ -173,7 +172,6 @@
         <h2>Сервисы</h2>
         <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
         <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-        <!-- Набросок слайдера -->
         <div class="slider-services">
           <input type="button" id="delivery">
           <input type="button" id="guarantee">
@@ -227,7 +225,7 @@
         <div>
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-          <button class="map"><img src="" alt=""></button>
+          <button class="map"><img src="img/map.jpg" width="300" height="158" alt="Карта"></button>
           <button type="button">Заблудились? Напишите нам!</button>
         </div>
       </article>
@@ -275,16 +273,38 @@
     </div>
   </footer>
 
-  <!-- Здесь будет форма -->
-  <section>
-    <h2>Личный кабинет</h2>
-    <p>Введите свой логин и пароль.</p>
-    <button type="button">Закрыть</button>
+  <!-- Модальные окна -->
+  <section class="modal modal-feedback">
+    <h2>Обратная связь</h2>
+    <form action="" method="post">
+      <p>
+        <label for="">Ваше имя:</label>
+        <input type="text">
+      </p>
+      <p>
+        <label for="">Ваш e-mail:</label>
+        <input type="text">
+      </p>
+      <p>
+        <label for="">Текст письма:</label>
+        <textarea name="" id=""></textarea>
+      </p>
+      <button type="submit">Отправить</button>
+    </form>
+    <button class="modal-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
   </section>
-  <section>
-    <h2>Как до нас добраться</h2>
-    <button type="button">Закрыть</button>
+
+  <section class="modal modal-map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <p><img src="img/bigmap.jpg" width="940" height="446"
+        alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
+    <button class="modal-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
   </section>
+
 </body>
 
 </html>
