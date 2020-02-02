@@ -11,10 +11,10 @@
     <div class="container">
       <div class="navbar">
         <div class="logo-header">
-          <a>Техномарт</a>
+          <a class="logo-text">Техномарт</a>
         </div>
         <div class="search">
-          <form action="#" method="get">
+          <form action="https://echo.htmlacademy.ru" method="get">
             <input type="search" name="search" placeholder="Поиск:">
           </form>
         </div>
@@ -36,8 +36,9 @@
           <a href="#">Регистрация</a>
         </div>
       </section>
+
       <nav class="main-nav">
-        <ul>
+        <ul class="site-nav">
           <li><a>Главная</a></li>
           <li><a href="#">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
@@ -139,6 +140,7 @@
               <p class="new-price">25500 Р.</p>
             </li>
             <li>
+              <div class="flag flag-new">Новинка</div>
               <div class="actions">
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
@@ -151,6 +153,7 @@
         </div>
         <div></div>
       </section>
+
       <section class="popular-manufacturers">
         <div>
           <h2>Популярные производители:</h2>
@@ -201,7 +204,7 @@
               <div>
                 <h4>Кредит</h4>
                 <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-                <button type="button">Отправить заявку</button>
+                <a href="#">Отправить заявку</a>
               </div>
             </li>
           </ul>
@@ -225,8 +228,9 @@
         <div>
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-          <button class="map"><img src="img/map.jpg" width="300" height="158" alt="Карта"></button>
-          <button type="button">Заблудились? Напишите нам!</button>
+          <button class="map"><img src="img/map.jpg" width="300" height="158"
+              alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></button>
+          <a href="#">Заблудились? Напишите нам!</a>
         </div>
       </article>
     </div>
@@ -266,7 +270,7 @@
           <li><a href="">Инстаграм</a></li>
         </ul>
         <div class="communication">
-          <p>Обратная связь:<a href="">mail@htmlacademy.ru</a></p>
+          <p>Обратная связь:<a href="#">mail@htmlacademy.ru</a></p>
           <p>Разработано -<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
         </div>
       </div>
@@ -275,19 +279,19 @@
 
   <!-- Модальные окна -->
   <section class="modal modal-feedback">
-    <h2>Обратная связь</h2>
-    <form action="" method="post">
+    <h2 class="visually-hidden">Обратная связь</h2>
+    <form action="https://echo.htmlacademy.ru" method="post">
       <p>
-        <label for="">Ваше имя:</label>
-        <input type="text">
+        <label for="user-name">Ваше имя:</label>
+        <input type="text" id="user-name" placeholder="Имя Фамилия">
       </p>
       <p>
-        <label for="">Ваш e-mail:</label>
-        <input type="text">
+        <label for="user-email">Ваш e-mail:</label>
+        <input type="text" id="user-email" placeholder="email@example.com">
       </p>
       <p>
-        <label for="">Текст письма:</label>
-        <textarea name="" id=""></textarea>
+        <label for="user-text">Текст письма:</label>
+        <textarea name="" id="user-text" placeholder="В свободной форме"></textarea>
       </p>
       <button type="submit">Отправить</button>
     </form>

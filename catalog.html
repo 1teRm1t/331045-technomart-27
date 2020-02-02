@@ -11,10 +11,10 @@
     <div class="container">
       <div class="navbar">
         <div class="logo-header">
-          <a href="index.html">Техномарт</a>
+          <a class="logo-text" href="index.html">Техномарт</a>
         </div>
         <div class="search">
-          <form action="#" method="get">
+          <form action="https://echo.htmlacademy.ru" method="get">
             <input type="search" name="search" placeholder="Поиск:">
           </form>
         </div>
@@ -41,8 +41,9 @@
           </p>
         </div>
       </section>
+
       <nav class="main-nav">
-        <ul>
+        <ul class="site-nav">
           <li><a href="index.html">Главная</a></li>
           <li><a href="#">Компания</a></li>
           <li><a>Каталог</a></li>
@@ -66,7 +67,7 @@
       <h1>Перфораторы</h1>
       <div>
         <aside class="filters">
-          <form class="" action="#" method="get">
+          <form class="" action="https://echo.htmlacademy.ru" method="get">
             <div class="filter">
               <span>Фильтр:</span>
             </div>
@@ -137,11 +138,13 @@
               <li><a href="#">По функционалу</a></li>
             </ul>
             <ul class="sorting-switches">
-              <li><a href="#"></a>вверх</li>
-              <li><a href="#"></a>вниз</li>
+              <li><a href="#">вверх</a></li>
+              <li><a href="#">вниз</a></li>
             </ul>
           </div>
+
           <ul class="catalog-list">
+            <h2 class="visually-hidden">Результат сортировки</h2>
             <li class="catalog-item">
               <div class="actions">
                 <a class="buy" href="#">Купить</a>
@@ -163,6 +166,7 @@
               <p class="new-price">25500 Р.</p>
             </li>
             <li class="catalog-item">
+              <div class="flag flag-new">Новинка</div>
               <div class="actions">
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
@@ -182,6 +186,7 @@
               <p class="new-price">15500 Р.</p>
             </li>
             <li class="catalog-item">
+              <div class="flag flag-new">Новинка</div>
               <div class="actions">
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
@@ -201,6 +206,7 @@
               <p class="new-price">12500 Р.</p>
             </li>
             <li class="catalog-item">
+              <div class="flag flag-new">Новинка</div>
               <div class="actions">
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
@@ -292,8 +298,16 @@
     </div>
   </footer>
 
-  <section>
-    <h2>Товар добавлен в корзину!</h2>
+  <section class="modal modal-add-to-cart">
+    <span class="icon"></span>
+    <h3 class="add">Товар добавлен в корзину!</h3>
+    <div class="modal-link">
+      <a class="btn-add" href="#">Оформить заказ</a>
+      <a class="btn-continue" href="#">Продолжить покупки</a>
+    </div>
+    <button class="modal-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
   </section>
 </body>
 
