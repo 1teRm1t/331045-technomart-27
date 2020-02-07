@@ -1,0 +1,478 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* main-header */
+
+.main-header {
+  min-height: 320px;
+  margin-bottom: 59px;
+  padding-bottom: 60px;
+  background-color: #f4f7f9;
+}
+
+.navbar {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #293449;
+}
+
+.logo-header {
+  width: 220px;
+  height: 47px;
+  background-color: #ee3643;
+}
+
+.logo-header:hover {
+  background-color: #ca2c37;
+}
+
+.logo-header:active {
+  background-color: #ba2732;
+}
+
+.search input {
+  background-color: transparent;
+  border: none;
+}
+
+.search input:focus {
+  background-color: #ffffff;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-item a {
+  color: #ffffff;
+}
+
+.order {
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.order:hover {
+  background-color: #5fbb2d;
+}
+
+.order:active {
+  background-color: #518534;
+}
+
+.slogan {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  font-weight: 400;
+  color: #ee3643;
+}
+
+.phone-number {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ee3643;
+}
+
+.address {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #32425c;
+}
+
+.user-login a {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.name {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.user-block a {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+/* navigation */
+
+.main-nav {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  background-color: #32425c;
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav a {
+  color: #ffffff;
+}
+
+.site-nav a:hover {
+  background-color: #293449;
+}
+
+.site-nav a:active {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #1d2739;
+}
+
+/* main-index */
+
+/* main-promo */
+
+.promo h3 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: black;
+  /*#ffffff*/
+}
+
+.promo a {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: black;
+  /*#ffffff*/
+}
+
+/* slider */
+
+.slider-promo h3 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.slider-promo p {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: black;
+  /*#ffffff*/
+}
+
+.slider-promo .btn {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+/* popular */
+
+.popular h2 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #32425c;
+}
+
+.popular .popular-link {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+/* services */
+
+.services {
+  background-color: #f4f7f9;
+}
+
+.services h2 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.services h4 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #32425c;
+}
+
+.services .btn {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ff5357;
+}
+
+/* info */
+
+.info h2 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.about-company ul {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  list-style: none;
+}
+
+.info .btn {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+/* main-catalog */
+
+.breadcrumbs-list {
+  list-style: none;
+}
+
+.breadcrumbs-list a {
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.title {
+  background-color: #f2f6f8;
+}
+
+.title h1 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #32425c;
+}
+
+/* filters */
+
+.filters fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+fieldset .filter-item {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.active {
+  background-color: #ee3643;
+}
+
+.pagination-list a {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.about-perforators {
+  background-color: #f4f7f9;
+}
+
+.about-perforators h2 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.about-perforators p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* footer */
+
+footer {
+  background-color: #32425c;
+}
+
+.footer-contacts p {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #f3f7f9;
+}
+
+.logo-footer {
+  width: 220px;
+  height: 68px;
+  background-color: #ee3643;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.footer-list {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.footer-list a {
+  color: #f1f5f7;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+
+.footer-list-top a:active {
+  text-decoration: none;
+  color: rgba(241, 245, 247, 0.5);
+}
+
+.footer-list-bottom a:active {
+  text-decoration: none;
+  color: rgba(255, 209, 128, 0.5);
+}
+
+.footer-list-bottom a {
+  color: #ffd180;
+}
+
+.copyright {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.communication ul {
+  list-style: none;
+}
+
+.communication li {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.communication a {
+  color: #ffd180;
+}
+
+.communication a:hover {
+  text-decoration: underline;
+}
+
+.communication a:active {
+  color: #ee3643;
+}
+
+/* Модальные окна */
+
+.modal {
+  display: none;
+}
