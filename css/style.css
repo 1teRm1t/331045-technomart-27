@@ -40,8 +40,11 @@ a {
 .main-header {
   min-height: 320px;
   margin-bottom: 59px;
-  padding-bottom: 60px;
   background-color: #f4f7f9;
+}
+
+.navbar .container {
+  display: flex;
 }
 
 .navbar {
@@ -50,21 +53,23 @@ a {
   background-color: #293449;
 }
 
-.logo-header {
+.header-logo {
   width: 220px;
-  height: 47px;
+  height: 42px;
   background-color: #ee3643;
 }
 
-.logo-header:hover {
+.header-logo:hover {
   background-color: #ca2c37;
 }
 
-.logo-header:active {
+.header-logo:active {
   background-color: #ba2732;
 }
 
 .search input {
+  width: 270px;
+  height: 42px;
   background-color: transparent;
   border: none;
   outline: none;
@@ -75,7 +80,15 @@ a {
 }
 
 .menu-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.menu-item {
+  width: 150px;
+  text-align: center;
 }
 
 .menu-item a {
@@ -91,6 +104,7 @@ a {
 }
 
 .order {
+  width: 150px;
   color: #ffffff;
   background-color: #63a63e;
 }
@@ -103,11 +117,26 @@ a {
   background-color: #518534;
 }
 
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
 .slogan {
+  width: 200px;
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
   color: #ee3643;
+}
+
+.contacts {
+  width: 265px;
+}
+
+.phone {
+  border: 3px solid #ffffff;
 }
 
 .phone-number {
@@ -171,6 +200,9 @@ a {
 }
 
 .site-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -206,7 +238,25 @@ a {
   /*#ffffff*/
 }
 
+.promo-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* slider */
+
+.slider-wrap {
+  display: flex;
+}
+
+.slider-wrap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .slider-promo h3 {
   font-size: 36px;
@@ -230,6 +280,11 @@ a {
 
 /* popular */
 
+.popular {
+  display: flex;
+  justify-content: space-between;
+}
+
 .popular h2 {
   font-size: 30px;
   line-height: 30px;
@@ -243,12 +298,34 @@ a {
   background-color: #ee3643;
 }
 
+.popular-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.popular-list .catalog-item:last-child {
+  margin-right: 0;
+}
+
+.manufacturers-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .manufacturers-list a:hover {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
 .manufacturers-list a:active {
   box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+}
+
+.manufacturers-item {
+  width: 218px;
+  border: 1px solid #eaeaea;
 }
 
 /* services */
@@ -268,6 +345,12 @@ a {
   color: #32425c;
 }
 
+.service-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .services .btn {
   font-size: 14px;
   line-height: 18px;
@@ -277,15 +360,36 @@ a {
 
 /* info */
 
+.info .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .info h2 {
   font-size: 30px;
   line-height: 30px;
+}
+
+.about-company {
+  width: 540px;
+}
+
+.tagline {
+  width: 520px;
 }
 
 .about-company ul {
   font-size: 18px;
   line-height: 20px;
   list-style: none;
+}
+
+.info-contacts {
+  width: 300px;
+}
+
+.info-contacts .tagline {
+  width: 180px;
 }
 
 .info .btn {
@@ -306,15 +410,18 @@ a {
 /* main-catalog */
 
 .breadcrumbs-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .breadcrumbs-list a {
-  text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .title {
@@ -325,6 +432,12 @@ a {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
+  text-transform: uppercase;
+}
+
+.goods-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .filter {
@@ -348,6 +461,8 @@ fieldset ul {
 }
 
 .sorting {
+  display: flex;
+  width: 700px;
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -355,6 +470,7 @@ fieldset ul {
 }
 
 .sorting ul {
+  display: flex;
   list-style: none;
 }
 
@@ -381,9 +497,27 @@ fieldset ul {
 
 /* catalog */
 
+.catalog-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .catalog-item {
+  width: 218px;
+  margin-bottom: 21px;
+  margin-right: 22px;
   font-family: 'PT Sans', sans-serif;
 }
+
+/* Почему не срабатывает?
+.catalog-list .catalog-item:nth-child(3n) {
+  margin-right: 0;
+} */
+
 
 .catalog-item h3 {
   font-size: 18px;
@@ -408,6 +542,10 @@ fieldset ul {
 
 /* filters */
 
+.filters {
+  width: 220px;
+}
+
 .filters fieldset {
   border: none;
 }
@@ -426,6 +564,9 @@ fieldset .filter-item {
 }
 
 .pagination-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -448,6 +589,7 @@ fieldset .filter-item {
   font-family: 'Cuprum', sans-serif;
   font-size: 30px;
   line-height: 30px;
+  text-transform: uppercase;
 }
 
 .about-perforators p {
@@ -462,15 +604,19 @@ footer {
   background-color: #32425c;
 }
 
+.footer-top .container {
+  display: flex;
+}
+
 .footer-contacts p {
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
 }
 
-.logo-footer {
+.footer-logo {
   width: 220px;
-  height: 68px;
+  height: 63px;
   background-color: #ee3643;
 }
 
@@ -479,6 +625,7 @@ footer {
 }
 
 .footer-list {
+  display: flex;
   font-size: 18px;
   line-height: 24px;
   list-style: none;
@@ -506,27 +653,46 @@ footer {
   color: #ffd180;
 }
 
+.footer-bottom .container {
+  display: flex;
+}
+
 .copyright {
+  width: 240px;
+  margin: 0;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
 }
 
 .footer-social {
+  margin: 0;
+  width: 165px;
   list-style: none;
 }
 
-.communication ul {
+.communication-list {
+  margin: 0;
   list-style: none;
 }
 
-.communication li {
+.communication-item:nth-child(1) {
+  width: 210px;
+}
+
+.communication-item:nth-child(2) {
+  width: 135px;
+}
+
+.communication-item {
+  display: inline-block;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
 }
 
 .communication a {
+  display: block;
   color: #ffd180;
 }
 
