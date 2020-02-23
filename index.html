@@ -95,20 +95,20 @@
         <div class="slider-wrap">
           <div class="slider-promo">
             <div class="slider-tools">
-              <input type="radio" id="perforators" name="toggle" checked>
-              <input type="radio" id="drills" name="toggle">
+              <input class="visually-hidden" type="radio" id="perforators" name="toggle" checked>
+              <input class="visually-hidden" type="radio" id="drills" name="toggle">
               <div class="slider-controls">
                 <label for="perforators"></label>
                 <label for="drills"></label>
               </div>
             </div>
             <ul class="slider-list">
-              <li class="slider-item">
+              <li class="slider-item slide" id="slide1">
                 <h3>Перфораторы</h3>
                 <p>Настоящие мужские игрушки</p>
                 <a class="btn slider-button" href="catalog.html">Открыть каталог</a>
               </li>
-              <li class="slider-item">
+              <li class="slider-item slide" id="slide2">
                 <h3>Дрели</h3>
                 <p>Соседям на радость!</p>
                 <a class="btn slider-button" href="catalog.html">Открыть каталог</a>
@@ -199,27 +199,27 @@
 
     <section class="services">
       <div class="container">
-        <h2>Сервисы</h2>
-        <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
-        <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+        <div class="services-intro">
+          <h2>Сервисы</h2>
+          <p class="paragraph">Хороший интернет-магазин отличается от плохого не только ценами!</p>
+          <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+        </div>
         <div class="slider-services">
-          <input type="button" id="delivery">
-          <input type="button" id="guarantee">
-          <input type="button" id="credit">
-          <div>
-            <label for="delivery">Доставка</label>
-            <label for="guarantee">Гарантия</label>
-            <label for="credit">Кредит</label>
+          <input class="visually-hidden" type="radio" name="services-toggle" id="delivery">
+          <input class="visually-hidden" type="radio" name="services-toggle" id="guarantee">
+          <input class="visually-hidden" type="radio" name="services-toggle" id="credit">
+          <div class="services-buttons">
+            <label class="services-button" for="delivery">Доставка</label>
+            <label class="services-button" for="guarantee">Гарантия</label>
+            <label class="services-button" for="credit">Кредит</label>
           </div>
           <ul class="service-list">
-            <li class="service-item">
-              <div>
-                <h4>Доставка</h4>
-                <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
-                  заработаем, поднимая его на ваш этаж!</p>
-              </div>
+            <li class="service-item delivery">
+              <h4>Доставка</h4>
+              <p> Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
+                заработаем, поднимая его на ваш этаж!</p>
             </li>
-            <li class="service-item">
+            <!--   <li class="service-item">
               <div>
                 <h4>Гарантия</h4>
                 <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его
@@ -233,7 +233,7 @@
                 <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
                 <a class="btn" href="#">Отправить заявку</a>
               </div>
-            </li>
+            </li>-->
           </ul>
         </div>
       </div>
@@ -334,19 +334,21 @@
   <section class="modal modal-feedback">
     <h2 class="visually-hidden">Обратная связь</h2>
     <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
-      <p>
-        <label for="user-name">Ваше имя:</label>
-        <input type="text" id="user-name" placeholder="Имя Фамилия">
-      </p>
-      <p>
-        <label for="user-email">Ваш e-mail:</label>
-        <input type="text" id="user-email" placeholder="email@example.com">
-      </p>
-      <p>
-        <label for="user-text">Текст письма:</label>
-        <textarea name="" id="user-text" placeholder="В свободной форме"></textarea>
-      </p>
-      <div class="">
+      <div class="feedback-wrapper">
+        <p>
+          <label for="user-name">Ваше имя:</label>
+          <input type="text" id="user-name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="user-email">Ваш e-mail:</label>
+          <input type="text" id="user-email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="user-text">Текст письма:</label>
+          <textarea name="" id="user-text" placeholder="В свободной форме"></textarea>
+        </p>
+      </div>
+      <div class="feedback-button">
         <button type="submit">Отправить</button>
       </div>
     </form>

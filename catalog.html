@@ -119,12 +119,16 @@
                   <div class="scale">
                     <div class="crossbar"></div>
                   </div>
-                  <div class="toggle"></div>
-                  <div class="toggle"></div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
                 </div>
                 <div class="price">
-                  <label class="min-price"><input type="text" name="min-price" value="0"></label>
-                  <label class="max-price"><input type="text" name="max-price" value="30000"></label>
+                  <label class="min-price">
+                    <input type="text" name="min-price" value="0">
+                  </label>
+                  <label class="max-price">
+                    <input type="text" name="max-price" value="30000">
+                  </label>
                 </div>
               </div>
             </fieldset>
@@ -181,15 +185,26 @@
 
         <section class="catalog">
           <div class="sorting">
-            <span>Сортировка</span>
+            <span class="sort">Сортировка:</span>
             <ul class="sorting-list">
               <li><a class="active-link" href="#">По цене</a></li>
               <li><a href="#">По типу</a></li>
               <li><a href="#">По функционалу</a></li>
             </ul>
             <ul class="sorting-switches">
-              <li><a href="#"><span class="visually-hidden">вверх</span></a></li>
-              <li><a href="#"><span class="visually-hidden">вниз</span></a></li>
+              <li>
+                <a class="up" href="#">
+                  <svg class="active-switch" xmlns="http://www.w3.org/2000/svg" width="11" height="10"
+                    viewBox="0 0 11 10">
+                    <path fill="#231F20" d="M5.5 0L0 10h11z" /></svg>
+                  <span class="visually-hidden">вверх</span></a>
+              </li>
+              <li>
+                <a class="down" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                    <path fill="#231F20" d="M5.5 10L0 0h11" /></svg>
+                  <span class="visually-hidden">вниз</span></a>
+              </li>
             </ul>
           </div>
 
@@ -303,10 +318,11 @@
       <div class="container">
         <h2>Пара слов о перфораторах</h2>
         <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в
-          кирпиче, бетоне и камне.
-          Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
-          шуруповерта и отбойного молотка.
-          В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и
+          кирпиче, бетоне и камне.</p>
+        <p>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции
+          дрели,
+          шуруповерта и отбойного молотка.</p>
+        <p>В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и
           ударная дрель.</p>
       </div>
     </section>
@@ -376,8 +392,10 @@
   </footer>
 
   <section class="modal modal-add-to-cart">
-    <span class="icon"></span>
-    <h3 class="add">Товар добавлен в корзину!</h3>
+    <div class="modal-add-wrapper">
+      <span class="icon"></span>
+      <h3 class="add">Товар добавлен в корзину!</h3>
+    </div>
     <div class="modal-link">
       <a class="btn-add" href="#">Оформить заказ</a>
       <a class="btn-continue" href="#">Продолжить покупки</a>
