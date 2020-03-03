@@ -704,6 +704,35 @@ a {
   color: #ffffff;
 }
 
+.slider-buttons {
+  position: absolute;
+  top: 120px;
+  left: 32px;
+  display: flex;
+  justify-content: space-between;
+  width: 535px;
+}
+
+.slider-buttons label::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #ffffff;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.slider-buttons label:first-child::before {
+  border-top: none;
+  border-right: none;
+}
+
+.slider-buttons label:last-child::before {
+  border-left: none;
+  border-bottom: none;
+}
+
 .slider-controls {
   position: absolute;
   top: 215px;
@@ -1948,8 +1977,8 @@ footer {
 /* modal-feedback */
 
 .modal-feedback {
-  top: 300px;
-  left: 30%;
+  top: 25%;
+  left: 35%;
   width: 620px;
   background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
@@ -2116,11 +2145,28 @@ footer {
 
 .modal-map {
   top: 50%;
-  left: 35%;
+  left: 50%;
   width: 940px;
   height: 446px;
+  transform: translate(-50%, -75%);
+  z-index: 1000;
+}
+
+.modal-map iframe {
+  position: relative;
+  z-index: 2;
+  border: none;
 }
 
 .modal-map p {
+  position: absolute;
+  top: 0;
+  left: 0;
   margin: 0;
+  z-index: 1;
 }
+
+.modal-map .modal-close {
+  z-index: 2;
+}
+
