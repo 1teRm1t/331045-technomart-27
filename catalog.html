@@ -48,22 +48,28 @@
           <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
         <div class="user-block">
-          <p class="name">
-            <a class="user-name" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
-                <path fill="#c5c5c5"
-                  d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z" />
-              </svg>
-              Равшан Джамшутович
-              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
-                <g fill="#c5c5c5">
-                  <path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z" />
+          <ul class="name">
+            <li>
+              <a class="user-name" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
                   <path fill="#c5c5c5"
-                    d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z" />
-                </g>
-              </svg>
-            </a>
-          </p>
+                    d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z" />
+                </svg>
+                Равшан Джамшутович
+              </a>
+            </li>
+            <li>
+              <a class="user-logout" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+                  <g fill="#c5c5c5">
+                    <path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z" />
+                    <path fill="#c5c5c5"
+                      d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z" />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
           <p class="cabinet">
             <a href="">Мои заказы</a>
             <a href="">Личный кабинет</a>
@@ -214,7 +220,7 @@
           <ul class="catalog-list">
             <li class="catalog-item">
               <div class="actions">
-                <a class="buy" href="#">Купить</a>
+                <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
               <img src="img/bosch3000.jpg" width="218" height="170" alt="bosch3000">
@@ -358,7 +364,9 @@
               <img src="img/logo-technomart-footer.svg" width="137" height="22" alt="Логотип Техномарт">
             </a>
           </div>
-          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>+7 (812) 555-05-55</p>
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
+            <a class="footer-phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
+          </p>
         </div>
         <nav class="footer-nav">
           <ul class="footer-list footer-list-top">
@@ -446,12 +454,15 @@
     </div>
     <div class="modal-link">
       <a class="btn-add" href="#">Оформить заказ</a>
-      <a class="btn-continue" href="#">Продолжить покупки</a>
+      <a class="btn-continue js-buy" href="#">Продолжить покупки</a>
     </div>
     <button class="modal-close" type="button">
       <span class="visually-hidden">Закрыть</span>
     </button>
   </section>
+
+  <script src="js/11.js"></script>
+
 </body>
 
 </html>

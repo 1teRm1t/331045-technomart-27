@@ -335,18 +335,26 @@ a {
 }
 
 .user-block {
+  display: flex;
+  flex-direction: column;
   width: 300px;
 }
 
 .name {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
+  padding: 0;
   margin-bottom: 3px;
+  list-style: none;
 }
 
 .user-name {
   position: relative;
   display: block;
-  padding: 14px 68px 11px 46px;
+  width: 210px;
+  padding: 12px 0;
+  padding-left: 45px;
   font-size: 21px;
   line-height: 21px;
   background-color: #ffffff;
@@ -361,13 +369,9 @@ a {
   position: absolute;
 }
 
-.user-name svg:first-child {
+.user-name svg {
+  top: 13px;
   left: 13px;
-}
-
-.user-name svg:last-child {
-  top: 15px;
-  right: 10px;
 }
 
 .user-name:hover path {
@@ -375,6 +379,31 @@ a {
 }
 
 .user-name:active path {
+  fill: #c5c5c5;
+}
+
+.user-logout {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+}
+
+.user-logout svg {
+  position: absolute;
+}
+
+.user-logout svg {
+  top: 14px;
+  right: 10px;
+}
+
+.user-logout:hover path {
+  fill: #32425c;
+}
+
+.user-logout:active path {
   fill: #c5c5c5;
 }
 
@@ -702,6 +731,7 @@ a {
   height: 38px;
   font-size: 14px;
   line-height: 38px;
+  vertical-align: top;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -751,7 +781,6 @@ a {
 
 .popular-list {
   display: flex;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -858,6 +887,12 @@ a {
   border-bottom: 1px solid #293449;
   cursor: pointer;
 }
+
+.services-button:hover {
+  background-color: #293449;
+}
+
+
 
 .button-delivery {
   border-top: none;
@@ -1244,7 +1279,6 @@ fieldset ul {
 
 .catalog-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
   margin-bottom: 31px;
@@ -1255,6 +1289,7 @@ fieldset ul {
 .catalog-item {
   position: relative;
   width: 218px;
+  margin-right: 20px;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
   border: 1px solid #ccc;
@@ -1262,6 +1297,10 @@ fieldset ul {
 
 .catalog-list .catalog-item {
   margin-bottom: 21px;
+}
+
+.catalog-list .catalog-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .catalog-item:hover {
@@ -1732,6 +1771,10 @@ footer {
   color: #f3f7f9;
 }
 
+.footer-phone-number {
+  color: #f3f7f9;
+}
+
 .footer-logo {
   position: relative;
   width: 220px;
@@ -1874,6 +1917,7 @@ footer {
   display: inline-block;
   font-size: 16px;
   line-height: 18px;
+  vertical-align: top;
   color: #ffffff;
 }
 
@@ -1910,7 +1954,7 @@ footer {
   background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
   border-top: 7px solid #ee3643;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .feedback-wrapper {
@@ -2009,7 +2053,7 @@ footer {
   background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
   border-top: 7px solid #ee3643;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .modal-add-wrapper {
