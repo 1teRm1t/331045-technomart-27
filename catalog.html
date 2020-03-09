@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Техномарт "Каталог"</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&display=swap&subset=cyrillic"
+  <link
+    href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&#448;PT+Sans:400,700&display=swap&subset=cyrillic"
     rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body class="catalog-page">
@@ -35,10 +36,10 @@
             <a class="bookmarks" href="#">Закладки: 0</a>
           </li>
           <li class="menu-item">
-            <a class="basket" href="#">Корзина: 10</a>
+            <a class="basket basket-full" href="#">Корзина: 10</a>
           </li>
         </ul>
-        <a class="order" href="#">Оформить заказ</a></a>
+        <a class="order" href="#">Оформить заказ</a>
       </div>
     </div>
 
@@ -101,7 +102,7 @@
     <div class="container">
       <ul class="breadcrumbs-list">
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
+          <a class="breadcrumbs-link" href="index.html" aria-label="Главная"></a>
         </li>
         <li class="breadcrumbs-item">
           <a href="#">Каталог</a>
@@ -145,7 +146,7 @@
             <hr class="line">
             <fieldset class="filter-toggle">
               <legend>Производители:</legend>
-              <ul>
+              <ul class="checkbox">
                 <li>
                   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="manufacturers"
                     id="bosch" checked>
@@ -176,7 +177,7 @@
             <hr class="line">
             <fieldset class="filter-toggle filter-toggle-last">
               <legend>Питание:</legend>
-              <ul>
+              <ul class="radio">
                 <li>
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="nutrition"
                     id="Rechargeable" checked>
@@ -227,7 +228,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch3000.jpg" width="218" height="170" alt="bosch3000">
+              <img src="img/bosch3000.jpg" width="218" height="170" alt="Перфоратор марки bosch3000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 3000</a>
               </h3>
@@ -239,7 +240,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch6000.jpg" width="218" height="170" alt="bosch6000">
+              <img src="img/bosch6000.jpg" width="218" height="170" alt="Перфоратор марки bosch6000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 6000</a>
               </h3>
@@ -252,7 +253,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch2000.jpg" width="218" height="170" alt="bosch2000">
+              <img src="img/bosch2000.jpg" width="218" height="170" alt="Перфоратор марки bosch2000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 2000</a>
               </h3>
@@ -264,7 +265,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch3000.jpg" width="218" height="170" alt="bosch3000">
+              <img src="img/bosch3000.jpg" width="218" height="170" alt="Перфоратор марки bosch3000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 3000</a>
               </h3>
@@ -277,7 +278,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch6000.jpg" width="218" height="170" alt="bosch6000">
+              <img src="img/bosch6000.jpg" width="218" height="170" alt="Перфоратор марки bosch6000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 6000</a>
               </h3>
@@ -289,7 +290,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch2000.jpg" width="218" height="170" alt="bosch2000">
+              <img src="img/bosch2000.jpg" width="218" height="170" alt="Перфоратор марки bosch2000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 2000</a>
               </h3>
@@ -302,7 +303,7 @@
                 <a class="buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch3000.jpg" width="218" height="170" alt="bosch3000">
+              <img src="img/bosch3000.jpg" width="218" height="170" alt="Перфоратор марки bosch3000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 3000</a>
               </h3>
@@ -314,7 +315,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch6000.jpg" width="218" height="170" alt="bosch6000">
+              <img src="img/bosch6000.jpg" width="218" height="170" alt="Перфоратор марки bosch6000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 6000</a>
               </h3>
@@ -326,7 +327,7 @@
                 <a class="buy js-buy" href="#">Купить</a>
                 <a class="in-bookmarks" href="#">В закладки</a>
               </div>
-              <img src="img/bosch2000.jpg" width="218" height="170" alt="bosch2000">
+              <img src="img/bosch2000.jpg" width="218" height="170" alt="Перфоратор марки bosch2000">
               <h3>
                 <a class="catalog-link" href="#">Перфоратор BOSCH BFG 2000</a>
               </h3>
@@ -465,7 +466,7 @@
     </button>
   </section>
 
-  <script src="js/catalog.js"></script>
+  <script src="../js/script.js"></script>
 
 </body>
 
