@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Техномарт "Каталог"</title>
   <link
-    href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&#448;PT+Sans:400,700&display=swap&subset=cyrillic"
+    href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&display=swap&subset=cyrillic"
     rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
@@ -64,7 +64,7 @@
               </a>
             </li>
             <li>
-              <a class="user-logout" href="#">
+              <a class="user-logout" href="#" aria-label="Кнопка выхода из аккаунта">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
                   <g fill="#c5c5c5">
                     <path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z" />
@@ -86,13 +86,27 @@
     <div class="container">
       <nav class="main-nav">
         <ul class="site-nav">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a>Каталог</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li>
+            <a href="index.html">Главная</a>
+          </li>
+          <li>
+            <a href="#">Компания</a>
+          </li>
+          <li>
+            <a>Каталог</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Спецпредложения</a>
+          </li>
+          <li>
+            <a href="#">Доставка</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -205,7 +219,7 @@
             </ul>
             <ul class="sorting-switches">
               <li>
-                <a class="up" href="#">
+                <a class="up" href="#" aria-label="Кнопка сортировки по возрастанию">
                   <svg class="active-switch" xmlns="http://www.w3.org/2000/svg" width="11" height="10"
                     viewBox="0 0 11 10">
                     <path fill="#231F20" d="M5.5 0L0 10h11z" /></svg>
@@ -213,7 +227,7 @@
                 </a>
               </li>
               <li>
-                <a class="down" href="#">
+                <a class="down" href="#" aria-label="Кнопка сортировки по убыванию">
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                     <path fill="#231F20" d="M5.5 10L0 0h11" /></svg>
                   <span class="visually-hidden">вниз</span>
@@ -336,10 +350,18 @@
             </li>
           </ul>
           <ul class="pagination-list">
-            <li class="pagination-item"><a class="active">1</a></li>
-            <li class="pagination-item"><a href="#">2</a></li>
-            <li class="pagination-item"><a href="#">3</a></li>
-            <li class="pagination-item"><a href="#">Следующая</a></li>
+            <li class="pagination-item">
+              <a class="active">1</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#">3</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#">Следующая</a>
+            </li>
           </ul>
         </section>
       </div>
@@ -443,9 +465,12 @@
         </div>
         <div class="communication">
           <ul class="communication-list">
-            <li class="communication-item">Обратная связь:<a href="#">mail@htmlacademy.ru</a></li>
-            <li class="communication-item">Разработано -<a
-                href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></li>
+            <li class="communication-item">Обратная связь:
+              <a href="#">mail@htmlacademy.ru</a>
+            </li>
+            <li class="communication-item">Разработано -
+              <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -466,7 +491,7 @@
     </button>
   </section>
 
-  <script src="js/script.js"></script>
+  <script src="js/script.min.js"></script>
 
 </body>
 
