@@ -1,13 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
   color: #000000;
-
   background-color: #ffffff;
 }
 
@@ -22,15 +20,12 @@ a {
 
 .visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   padding: 0;
   border: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -60,16 +55,13 @@ a {
 
 .navbar {
   margin-bottom: 45px;
-
   font-size: 17px;
   line-height: 18px;
-
   background-color: #293449;
 }
 
 .header-logo {
   position: relative;
-
   background-color: #ee3643;
   box-shadow: 0px 5px 0 0 #b52933;
 }
@@ -105,7 +97,6 @@ a {
   width: 100%;
   height: 42px;
   padding: 0 10px 0 48px;
-
   background-color: transparent;
   border: none;
   outline: none;
@@ -132,7 +123,6 @@ a {
   position: absolute;
   top: 12px;
   left: 17px;
-
   opacity: 0.3;
   cursor: pointer;
 }
@@ -155,7 +145,6 @@ a {
   display: flex;
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
@@ -166,12 +155,10 @@ a {
 
 .menu-item a {
   position: relative;
-
   display: block;
   padding-top: 12px;
-  padding-left: 20px;
+  padding-left: 35px;
   padding-bottom: 12px;
-
   color: #ffffff;
 }
 
@@ -185,13 +172,11 @@ a {
 
 .bookmarks::before {
   content: "";
-
   position: absolute;
   width: 14px;
   height: 16px;
   top: 12px;
   left: 17px;
-
   background-image: url(../img/icon-bookmark.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -206,19 +191,13 @@ a {
   opacity: 0.3;
 }
 
-.basket-full {
-  background-color: #ee3643;
-}
-
 .basket::before {
   content: "";
-
   position: absolute;
   width: 15px;
   height: 15px;
   top: 12px;
-  left: 18px;
-
+  left: 17px;
   background-image: url(../img/icon-cart.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -236,10 +215,8 @@ a {
 .order {
   display: block;
   padding: 12px 22px 12px 20px;
-
   text-align: center;
   color: #ffffff;
-
   background-color: #63a63e;
 }
 
@@ -264,31 +241,26 @@ a {
 .slogan {
   width: 200px;
   margin: 0;
-
   font-size: 16px;
-  line-height: 23px;
   font-style: italic;
   color: #ee3643;
 }
 
 .contacts {
   width: 270px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .phone {
   position: relative;
-
   margin: 0;
   margin-bottom: 3px;
-  padding: 9px 0 6px 0;
-
+  padding: 8px 0;
   border: 3px solid #ffffff;
 }
 
 .phone-number {
   padding-left: 74px;
-
   font-size: 21px;
   line-height: 21px;
   color: #ee3643;
@@ -296,13 +268,11 @@ a {
 
 .phone-number::before {
   content: "";
-
   position: absolute;
   width: 19px;
   height: 19px;
   top: 10px;
   left: 12px;
-
   background-image: url(../img/icon-phone.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -310,7 +280,6 @@ a {
 
 .address {
   margin: 0;
-
   font-size: 14px;
   line-height: 24px;
   text-align: center;
@@ -324,16 +293,14 @@ a {
 
 .login {
   position: relative;
-
   display: block;
-  padding: 12px 27px 12px 46px;
-
+  padding: 11px 27px 11px 46px;
   background-color: #ffffff;
 }
 
 .login svg {
   position: absolute;
-  top: 13px;
+  top: 12px;
   left: 14px;
 }
 
@@ -348,8 +315,7 @@ a {
 .registration {
   display: block;
   margin-left: 10px;
-  padding: 12px 24px;
-
+  padding: 11px 24px;
   background-color: #ffffff;
 }
 
@@ -380,23 +346,19 @@ a {
   margin: 0;
   padding: 0;
   margin-bottom: 3px;
-
   list-style: none;
 }
 
 .user-name {
   position: relative;
-
   display: block;
   width: 210px;
   padding: 12px 0;
   padding-left: 45px;
-
   font-size: 21px;
   line-height: 21px;
-  color: #000000;
-
   background-color: #ffffff;
+  color: #000000;
 }
 
 .user-name:active {
@@ -425,7 +387,6 @@ a {
   display: block;
   width: 45px;
   height: 45px;
-
   background-color: #ffffff;
 }
 
@@ -453,7 +414,6 @@ a {
 
 .cabinet a {
   padding-right: 30px;
-
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
@@ -474,13 +434,11 @@ a {
 
 .cabinet a:first-child::after {
   content: "";
-
   position: absolute;
   width: 5px;
   height: 5px;
   margin-top: 10px;
   margin-left: 15px;
-
   background-color: #32425c;
   border-radius: 50%;
 }
@@ -498,16 +456,13 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 10px;
-
   list-style: none;
-
   box-shadow: inset 0px -5px 0 0 #293449;
 }
 
 .site-nav a {
   display: block;
   padding: 21px 31px;
-
   color: #ffffff;
 }
 
@@ -534,7 +489,6 @@ a {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
-
   list-style: none;
 }
 
@@ -546,9 +500,8 @@ a {
 
 .promo-item h3 {
   margin: 0;
-  padding-top: 20px;
+  padding-top: 26px;
   padding-left: 23px;
-
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -557,13 +510,11 @@ a {
 
 .promo-item-flag::before {
   content: "";
-
   position: absolute;
   top: 0;
   right: 0;
   width: 60px;
   height: 60px;
-
   background-image: url(../img/new-flag.png);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -572,15 +523,13 @@ a {
 .promo-item a {
   display: block;
   width: 135px;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-left: 23px;
-
   font-size: 14px;
   line-height: 38px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 3px;
 }
@@ -599,13 +548,11 @@ a {
 
 .promo-list .promo-item:first-child::after {
   content: "";
-
   position: absolute;
   top: 31px;
   right: 43px;
   width: 44px;
   height: 65px;
-
   background-image: url(../img/icon-1.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -617,13 +564,11 @@ a {
 
 .promo-list .promo-item:nth-child(2)::after {
   content: "";
-
   position: absolute;
   top: 33px;
   right: 28px;
   width: 75px;
   height: 61px;
-
   background-image: url(../img/icon-2.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -635,13 +580,11 @@ a {
 
 .promo-list .promo-item:nth-child(3)::after {
   content: "";
-
   position: absolute;
   top: 31px;
   right: 31px;
   width: 78px;
   height: 62px;
-
   background-image: url(../img/icon-3.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -654,13 +597,11 @@ a {
 
 .promo-list-other .promo-item:first-child::after {
   content: "";
-
   position: absolute;
   top: 26px;
   right: 45px;
   width: 59px;
   height: 72px;
-
   background-image: url(../img/icon-4.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -672,13 +613,11 @@ a {
 
 .promo-list-other .promo-item:nth-child(2)::after {
   content: "";
-
   position: absolute;
   top: 32px;
   right: 31px;
   width: 78px;
   height: 63px;
-
   background-image: url(../img/icon-5.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -711,14 +650,12 @@ a {
 
 .slide-perforators {
   background-image: url(../img/slide-image-1.jpg);
-  background-color: #a0766b;
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .slide-drills {
   background-image: url(../img/slider-image-2.jpg);
-  background-color: #a0766b;
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -751,8 +688,7 @@ a {
 
 .slider-promo h3 {
   margin: 0;
-  padding: 23px 0 0 24px;
-
+  padding: 26px 0 0 24px;
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
@@ -762,8 +698,7 @@ a {
 
 .slider-promo p {
   margin: 0;
-  padding: 3px 0 0 25px;
-
+  padding: 8px 0 0 25px;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -773,7 +708,6 @@ a {
   position: absolute;
   top: 120px;
   left: 32px;
-
   display: flex;
   justify-content: space-between;
   width: 535px;
@@ -781,11 +715,9 @@ a {
 
 .slider-buttons label::before {
   content: "";
-
   position: absolute;
   width: 24px;
   height: 24px;
-
   border: 3px solid #ffffff;
   transform: rotate(45deg);
   cursor: pointer;
@@ -803,7 +735,7 @@ a {
 
 .slider-controls {
   position: absolute;
-  top: 220px;
+  top: 215px;
   left: 295px;
   display: flex;
 }
@@ -825,14 +757,13 @@ a {
 
 .btn {
   display: inline-block;
-
+  height: 38px;
   font-size: 14px;
   line-height: 38px;
   vertical-align: top;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-
   background-color: #ee3643;
   border-radius: 3px;
 }
@@ -847,7 +778,7 @@ a {
 
 .slider-promo .slider-button {
   width: 195px;
-  margin-top: 120px;
+  margin-top: 109px;
   margin-left: 25px;
 }
 
@@ -860,32 +791,27 @@ a {
 .popular {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 21px;
-  padding: 25px 24px 25px 30px;
-
   background-color: #f9f5f0;
 }
 
 .popular h2 {
   margin: 0;
-
+  padding: 32px 30px;
   font-size: 30px;
-  line-height: 30px;
-  font-weight: 400;
   text-transform: uppercase;
   color: #32425c;
 }
 
 .popular .popular-link {
   width: 253px;
+  margin: 25px 24px 26px;
 }
 
 .popular-list {
   display: flex;
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
@@ -919,7 +845,6 @@ a {
   height: 143px;
   margin-right: 20px;
   margin-bottom: 20px;
-
   border: 1px solid #eaeaea;
 }
 
@@ -944,25 +869,23 @@ a {
 
 .services-intro h2 {
   margin: 0;
-  padding-bottom: 28px;
-
+  padding-bottom: 35px;
   font-size: 30px;
   line-height: 30px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
-.services-intro p {
+.services-intro .paragraph {
   margin: 0;
+}
 
-  font-family: 'PT Sans', sans-serif;
-  font-size: 13px;
-  line-height: 24px;
+.services-intro p:last-child {
+  margin: 0;
 }
 
 .slider-services {
   display: flex;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .services-buttons {
@@ -972,26 +895,22 @@ a {
 
 .services-buttons::after {
   content: "";
-
   position: absolute;
-  top: -42px;
+  top: -35px;
   left: 230px;
   width: 10px;
   height: 279px;
-
   background-image: url(../img/shadow.png);
 }
 
 .services-button {
   display: block;
-  padding: 16px 140px 16px 22px;
-
+  padding: 20px 140px 20px 22px;
   font-size: 21px;
   line-height: 30px;
   font-weight: 700;
   text-align: left;
   color: #ffffff;
-
   background-color: #32425c;
   border-top: 1px solid #405069;
   border-bottom: 1px solid #293449;
@@ -1001,6 +920,8 @@ a {
 .services-button:hover {
   background-color: #293449;
 }
+
+
 
 .button-delivery {
   border-top: none;
@@ -1020,9 +941,8 @@ a {
 .service-list {
   display: flex;
   margin: 0;
-  margin-left: 78px;
+  margin-left: 77px;
   padding: 0;
-
   list-style: none;
 }
 
@@ -1033,19 +953,15 @@ a {
 
 .service-item h4 {
   margin: 0;
-  padding-top: 3px;
-  padding-bottom: 28px;
-
+  padding-bottom: 30px;
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
   color: #32425c;
   text-transform: uppercase;
 }
 
 .service-item p {
   margin: 0;
-
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 24px;
@@ -1054,10 +970,9 @@ a {
 
 .delivery {
   width: 623px;
-
   background-image: url(../img/delivery.png);
   background-repeat: no-repeat;
-  background-position: 150px 25px;
+  background-position: 150px 21px;
 }
 
 .delivery p {
@@ -1066,7 +981,6 @@ a {
 
 .guarantee {
   width: 623px;
-
   background-image: url(../img/guarantee.png);
   background-repeat: no-repeat;
   background-position: 240px;
@@ -1078,7 +992,6 @@ a {
 
 .credit {
   width: 623px;
-
   background-image: url(../img/credit.png);
   background-repeat: no-repeat;
   background-position: 155px;
@@ -1094,10 +1007,8 @@ a {
 
 .services .btn {
   width: 195px;
-
   font-size: 14px;
   color: #ffffff;
-
   background-color: #ff5357;
 }
 
@@ -1120,17 +1031,15 @@ a {
 .info .container {
   display: flex;
   justify-content: space-between;
-  padding-top: 75px;
+  padding-top: 80px;
   padding-bottom: 85px;
 }
 
 .info h2 {
   margin: 0;
-  padding-bottom: 25px;
-
+  padding-bottom: 38px;
   font-size: 30px;
   line-height: 30px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -1142,30 +1051,21 @@ a {
 
 .about-company p {
   margin: 0;
-
-  font-family: 'PT Sans', sans-serif;
-  font-size: 13px;
-  line-height: 24px;
 }
 
 .about-company p:nth-last-child(3) {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .tagline {
   width: 520px;
-  padding-bottom: 25px;
-
-  font-family: 'PT Sans', sans-serif;
-  font-size: 13px;
-  line-height: 24px;
+  padding-bottom: 36px;
 }
 
 .about-company .transfer-list {
   margin: 0;
   padding: 0;
   padding-bottom: 35px;
-
   font-size: 18px;
   line-height: 20px;
   list-style: none;
@@ -1182,13 +1082,11 @@ a {
 
 .transfer-list li::before {
   content: "";
-
   position: absolute;
   top: 10px;
   left: 0;
   width: 25px;
   height: 2px;
-
   background-color: #ee3643;
 }
 
@@ -1206,11 +1104,11 @@ a {
 }
 
 .map {
-  margin-bottom: 45px;
   padding: 0;
-
+  padding-bottom: 45px;
   background: 0 0;
   border: none;
+  outline: none;
   cursor: pointer;
 }
 
@@ -1225,9 +1123,8 @@ a {
   justify-content: flex-start;
   flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   padding: 0;
-
   list-style: none;
 }
 
@@ -1238,12 +1135,10 @@ a {
 
 .breadcrumbs-item:first-child a::before {
   content: "";
-
   position: absolute;
   top: 4px;
   width: 14px;
   height: 12px;
-
   background-image: url(../img/icon-home.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1251,13 +1146,11 @@ a {
 
 .breadcrumbs-item::after {
   content: "";
-
   position: absolute;
   top: 5px;
   right: -28px;
   width: 8px;
   height: 12px;
-
   background-image: url(../img/icon-right-small.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1285,17 +1178,15 @@ a {
 }
 
 .title {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   background-color: #f2f6f8;
 }
 
 .title h1 {
   margin: 0;
-  padding: 30px;
-
+  padding: 32px 30px 34px;
   font-size: 30px;
   line-height: 30px;
-  font-weight: 400;
   color: #32425c;
   text-transform: uppercase;
 }
@@ -1314,7 +1205,6 @@ a {
 
 .filter span {
   padding-left: 18px;
-
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -1339,12 +1229,10 @@ fieldset ul {
   width: 700px;
   margin-bottom: 21px;
   padding: 10px 0;
-
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
-
   background-color: #f7f3ec;
 }
 
@@ -1422,9 +1310,8 @@ fieldset ul {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 31px;
   padding: 0;
-
   list-style: none;
 }
 
@@ -1432,11 +1319,8 @@ fieldset ul {
   position: relative;
   width: 218px;
   margin-right: 20px;
-
-
-  font-family: 'PT Sans', sans-serif;
   text-align: center;
-
+  font-family: 'PT Sans', sans-serif;
   border: 1px solid #ccc;
 }
 
@@ -1455,7 +1339,6 @@ fieldset ul {
 .catalog-item h3 {
   margin: 0 0 12px 0;
   padding: 0 27px;
-
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
@@ -1469,8 +1352,8 @@ fieldset ul {
   font-size: 17px;
   line-height: 18px;
   font-weight: 700;
-
-  color: #ffffff;
+  color: #000000;
+  /* #ffffff */
 }
 
 .catalog-item .actions {
@@ -1480,7 +1363,6 @@ fieldset ul {
   width: 218px;
   height: 88px;
   padding: 40px 0;
-
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 10;
 }
@@ -1493,30 +1375,26 @@ fieldset ul {
   margin: 0 auto;
   margin-bottom: 7px;
   padding: 7px 0;
-
-  font-family: "Cuprum", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-
   background-color: #63a63e;
   border: 3px solid #63a63e;
   border-bottom-color: #367315;
   border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .actions .buy::before {
   content: "";
-
   position: absolute;
   top: 8px;
   left: 10px;
   width: 15px;
   height: 15px;
-
   background-image: url(../img/icon-cart.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1572,7 +1450,6 @@ fieldset ul {
   right: -1px;
   width: 60px;
   height: 60px;
-
   text-indent: -1000px;
   overflow: hidden;
   z-index: 20;
@@ -1587,7 +1464,6 @@ fieldset ul {
 .catalog-item .old-price {
   height: 28px;
   margin: 0;
-
   color: #a9a9a9;
   text-decoration: line-through;
 }
@@ -1597,22 +1473,18 @@ fieldset ul {
   width: 80px;
   margin: 0 35px 20px 40px;
   padding: 10px 30px;
-
   color: white;
-
   background-color: #ee3643;
   border-radius: 3px;
 }
 
 .catalog-item .new-price::after {
   content: "";
-
   position: absolute;
   top: 0;
   right: -20px;
   width: 0;
   height: 0;
-
   border: 19px solid white;
   border-left-color: #ee3643;
 }
@@ -1628,8 +1500,7 @@ fieldset ul {
 }
 
 fieldset legend {
-  padding-bottom: 17px;
-
+  padding-bottom: 20px;
   font-family: 'PT Sans', sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -1650,7 +1521,7 @@ fieldset .filter-item {
 
 .range-filter {
   width: 220px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .range {
@@ -1660,7 +1531,6 @@ fieldset .filter-item {
   padding-top: 40px;
   padding-right: 20px;
   padding-left: 20px;
-
   background-color: #f7f3ec;
   border-radius: 5px;
 }
@@ -1683,7 +1553,6 @@ fieldset .filter-item {
   width: 4px;
   height: 4px;
   padding: 0;
-
   border: 8px solid #ffffff;
   background-color: #ababab;
   box-shadow: 0 2px 1px 0 #cfcfcf;
@@ -1707,13 +1576,11 @@ fieldset .filter-item {
 
 .price::before {
   content: "";
-
   position: absolute;
   top: 20px;
   left: 105px;
   width: 10px;
   height: 1px;
-
   background-color: #444444;
 }
 
@@ -1726,10 +1593,8 @@ fieldset .filter-item {
 .price input {
   width: 95px;
   height: 36px;
-
-  text-align: center;
-
   background-color: #f7f3ec;
+  text-align: center;
 }
 
 .max-price {
@@ -1743,7 +1608,7 @@ fieldset .filter-item {
 }
 
 .filter-toggle-last {
-  margin-bottom: 63px;
+  margin-bottom: 50px;
 }
 
 .filter-toggle ul {
@@ -1751,37 +1616,25 @@ fieldset .filter-item {
   padding: 0;
 }
 
-.checkbox input[type="checkbox"]:focus:not(:hover)+label::before,
-.radio input[type="radio"]:focus:not(:hover)+label::before {
-  outline: rgb(59, 153, 252) auto 5px;
-}
-
 .filter-toggle li {
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   padding-left: 35px;
-}
-
-.filter-toggle li:last-child {
-  margin-bottom: 15px;
 }
 
 .filter-toggle label {
   position: relative;
   display: block;
-
   cursor: pointer;
   user-select: none;
 }
 
 .filter-input-checkbox+label::before {
   content: "";
-
   position: absolute;
   top: -3px;
   left: -35px;
   width: 23px;
   height: 23px;
-
   background-image: url(../img/checkbox-off.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1795,48 +1648,29 @@ fieldset .filter-item {
 
 .filter-input-checkbox:checked+label::after {
   content: "";
-
   position: absolute;
   top: -3px;
   left: -35px;
   width: 27px;
   height: 23px;
-
   background-image: url(../img/checkbox-on.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.7;
 }
 
-.filter-input-checkbox:disabled+label,
-.filter-input-checkbox:disabled+label {
-  opacity: 0.4;
-}
-
-.filter-input-checkbox:disabled+label::before,
-.filter-input-checkbox:disabled+label::after,
-.filter-input-checkbox:disabled+label:hover::after {
-  opacity: 0.3;
-}
-
-.filter-toggle label:focus {
-  border: inset 1px solid #0000FF;
-}
-
 .line {
-  margin-bottom: 18px;
+  margin-bottom: 25px;
   border: 1px solid #e5e5e5;
 }
 
 .filter-input-radio+label::before {
   content: "";
-
   position: absolute;
   top: -3px;
   left: -35px;
   width: 25px;
   height: 25px;
-
   background-image: url(../img/radio-off.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1850,38 +1684,23 @@ fieldset .filter-item {
 
 .filter-input-radio:checked+label::after {
   content: "";
-
   position: absolute;
   top: -3px;
   left: -35px;
   width: 25px;
   height: 25px;
-
   background-image: url(../img/radio-on.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.7;
 }
 
-.filter-input-radio:disabled+label,
-.filter-input-radio:disabled+label {
-  opacity: 0.4;
-}
-
-.filter-input-radio:disabled+label::before,
-.filter-input-radio:disabled+label::after,
-.filter-input-radio:disabled+label:hover::after {
-  opacity: 0.3;
-}
-
 .filter-button {
   display: block;
   width: 140px;
   height: 38px;
-
   font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
-
   border: 1px solid #e5e5e5;
   border-radius: 4px;
   background-color: #ffffff;
@@ -1893,12 +1712,11 @@ fieldset .filter-item {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
 .pagination-item {
-  margin-right: 9px;
+  margin-right: 10px;
 }
 
 .pagination-item:last-child {
@@ -1913,13 +1731,11 @@ fieldset .filter-item {
 .pagination-list a {
   display: block;
   padding: 10px 15px;
-
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
-
   border: 1px solid #e5e5e5;
   border-radius: 4px;
 }
@@ -1927,7 +1743,6 @@ fieldset .filter-item {
 .pagination-list .active {
   padding: 11px 16px;
   color: #ffffff;
-
   background-color: #ee3643;
   border-width: 0px;
 }
@@ -1945,23 +1760,20 @@ fieldset .filter-item {
 }
 
 .about-perforators .container {
-  padding: 65px 10px 73px;
+  padding: 67px 10px 73px;
 }
 
 .about-perforators h2 {
   margin: 0;
-  padding-bottom: 25px;
-
+  padding-bottom: 20px;
   font-family: 'Cuprum', sans-serif;
   font-size: 30px;
   line-height: 30px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
 .about-perforators p {
   margin: 0;
-
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 24px;
@@ -1983,7 +1795,6 @@ footer {
   padding-top: 32px;
   padding-bottom: 50px;
   padding-left: 3px;
-
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
@@ -1996,7 +1807,6 @@ footer {
 .footer-logo {
   position: relative;
   width: 220px;
-
   background-color: #ee3643;
   box-shadow: 0px 5px 0 0 #b52933;
 }
@@ -2016,8 +1826,8 @@ footer {
 }
 
 .footer-bottom {
-  padding-top: 35px;
-  padding-bottom: 30px;
+  padding-top: 39px;
+  padding-bottom: 35px;
   background-color: #293449;
 }
 
@@ -2029,7 +1839,6 @@ footer {
 .footer-list {
   display: flex;
   justify-content: flex-end;
-
   font-size: 18px;
   line-height: 24px;
   list-style: none;
@@ -2089,7 +1898,6 @@ footer {
 .copyright {
   margin: 0;
   margin-right: 80px;
-
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -2099,10 +1907,9 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 130px;
+  width: 136px;
   margin: 0 auto;
   padding: 0;
-
   list-style: none;
 }
 
@@ -2112,7 +1919,6 @@ footer {
   align-items: center;
   width: 42px;
   height: 42px;
-
   background-color: #212a3a;
   border-radius: 50%;
 }
@@ -2125,7 +1931,6 @@ footer {
   display: flex;
   width: 300px;
   margin: 0;
-
   list-style: none;
 }
 
@@ -2139,7 +1944,6 @@ footer {
 
 .communication-item {
   display: inline-block;
-
   font-size: 16px;
   line-height: 18px;
   vertical-align: top;
@@ -2161,46 +1965,6 @@ footer {
 
 /* Модальные окна */
 
-@keyframes bounce {
-  0% {
-    transform: translate(-50%, -70%);
-  }
-
-  70% {
-    transform: translate(-50%, -50%);
-  }
-
-  90% {
-    transform: translate(-50%, -30%);
-  }
-
-  100% {
-    transform: translate(-50%, -10%);
-  }
-}
-
-@keyframes shake {
-  0%,
-  100% {
-    transform: translate(50%);
-  }
-
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translateX(-55%);
-  }
-
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translateX(-35%);
-  }
-}
-
 .modal {
   position: fixed;
   display: none;
@@ -2208,24 +1972,17 @@ footer {
 
 .modal-show {
   display: block;
-  animation: bounce 0.7s;
-}
-
-.modal-error {
-  animation: shake 0.5s;
 }
 
 /* modal-feedback */
 
 .modal-feedback {
-  top: 10%;
-  left: 50%;
+  top: 25%;
+  left: 35%;
   width: 620px;
-
   background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
   border-top: 7px solid #ee3643;
-  transform: translateX(-50%);
   z-index: 1000;
 }
 
@@ -2247,7 +2004,6 @@ footer {
 .modal-feedback label {
   display: block;
   padding-bottom: 10px;
-
   font-size: 18px;
   line-height: 18px;
 }
@@ -2263,7 +2019,6 @@ footer {
   font-size: 13px;
   line-height: 18px;
   color: #a9a9a9;
-
   border: 2px solid #d7dcde;
   border-radius: 4px;
   outline: none;
@@ -2281,7 +2036,6 @@ footer {
   width: 428px;
   height: 87px;
   padding: 9px 14px 14px;
-
   resize: none;
 }
 
@@ -2293,12 +2047,10 @@ footer {
 .feedback-button button {
   width: 460px;
   height: 38px;
-
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
   color: #ffffff;
-
   background-color: #ee3643;
   border-radius: 4px;
   border: none;
@@ -2312,7 +2064,6 @@ footer {
   right: 7px;
   width: 21px;
   height: 21px;
-
   background-color: transparent;
   background-image: url(../img/form-close.svg);
   background-repeat: no-repeat;
@@ -2325,14 +2076,12 @@ footer {
 /* modal-add-to-cart */
 
 .modal-add-to-cart {
-  top: 10%;
-  left: 50%;
+  top: 300px;
+  left: 30%;
   width: 620px;
-
   background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
   border-top: 7px solid #ee3643;
-  transform: translateX(-50%);
   z-index: 1000;
 }
 
@@ -2350,12 +2099,10 @@ footer {
 
 .icon::before {
   content: "";
-
-  position: absolute;
   top: 10px;
   width: 66px;
   height: 66px;
-
+  position: absolute;
   background-image: url(../img/modal-check.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -2370,7 +2117,6 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 37px 80px;
-
   background-color: #f1f1f1;
 }
 
@@ -2378,12 +2124,10 @@ footer {
   display: block;
   width: 220px;
   padding: 10px 0;
-
   font-size: 14px;
   line-height: 18px;
   text-align: center;
   text-transform: uppercase;
-
   border-radius: 4px;
 }
 
@@ -2400,21 +2144,17 @@ footer {
 /* modal-map */
 
 .modal-map {
-  top: 10%;
+  top: 50%;
   left: 50%;
   width: 940px;
   height: 446px;
-
-  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
-  transform: translateX(-50%);
-  z-index: 999;
+  transform: translate(-50%, -75%);
+  z-index: 1000;
 }
 
 .modal-map iframe {
   position: relative;
-  width: 100%;
   z-index: 2;
-
   border: none;
 }
 
@@ -2423,10 +2163,10 @@ footer {
   top: 0;
   left: 0;
   margin: 0;
-
   z-index: 1;
 }
 
 .modal-map .modal-close {
   z-index: 2;
 }
+
