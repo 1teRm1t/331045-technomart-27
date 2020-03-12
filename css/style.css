@@ -900,27 +900,29 @@ a {
 .manufacturers-list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
-.manufacturers-list a:hover {
+.manufacturers-list li:hover {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
-.manufacturers-list a:active {
+.manufacturers-list li:active {
   box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+}
+
+.manufacturers-link:active img {
   opacity: 0.3;
 }
 
 .manufacturers-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 218px;
-  height: 143px;
   margin-right: 20px;
   margin-bottom: 20px;
 
-  border: 1px solid #eaeaea;
+  cursor: pointer;
 }
 
 .manufacturers-item:nth-child(n+5) {
@@ -929,6 +931,20 @@ a {
 
 .manufacturers-item:nth-child(4n) {
   margin-right: 0;
+}
+
+.manufacturers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 218px;
+  height: 143px;
+
+  border: 1px solid #eaeaea;
+}
+
+.manufacturers-item img {
+  pointer-events: none;
 }
 
 /* services */
@@ -1019,6 +1035,7 @@ a {
 
 .service-list {
   display: flex;
+  min-height: 276px;
   margin: 0;
   margin-left: 78px;
   padding: 0;
@@ -1028,7 +1045,6 @@ a {
 
 .service-item {
   display: none;
-  height: 280px;
 }
 
 .service-item h4 {
@@ -1069,7 +1085,7 @@ a {
 
   background-image: url(../img/guarantee.png);
   background-repeat: no-repeat;
-  background-position: 240px;
+  background-position: 240px 0;
 }
 
 .guarantee p {
@@ -1081,7 +1097,7 @@ a {
 
   background-image: url(../img/credit.png);
   background-repeat: no-repeat;
-  background-position: 155px;
+  background-position: 155px 0;
 }
 
 .credit p {
@@ -2182,7 +2198,7 @@ footer {
 @keyframes shake {
   0%,
   100% {
-    transform: translate(50%);
+    transform: translate(-45%);
   }
 
   10%,
@@ -2197,7 +2213,7 @@ footer {
   40%,
   60%,
   80% {
-    transform: translateX(-35%);
+    transform: translateX(-45%);
   }
 }
 
